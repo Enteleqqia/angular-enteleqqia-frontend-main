@@ -129,15 +129,13 @@ $dot-inactive-color: #D4D7DD;
     margin-right: 5px;
     background-color: $dot-inactive-color;
     padding-bottom:5px;
-  
-    &:first-child {
+    vertical-align: middle;
+    &.active{
       margin-right: 5px;
       width: 10px;
       height: 10px;
       background-color: $white-color;
     }
   
-    &:last-child {
-      margin-right: 0;
-    }
+  
   }
