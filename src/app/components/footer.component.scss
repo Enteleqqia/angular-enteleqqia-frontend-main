@@ -4,6 +4,7 @@ $icon-green-color: #8FBF21;
 $white-color: #ffffff;
 $contact-color:#EBECEE;
 $links-text-color: #D4D7DD;
+$dot-inactive-color: #D4D7DD;
 
 .copyright-area {
     background-color: $icon-green-color;
@@ -120,3 +121,23 @@ $links-text-color: #D4D7DD;
     color:$contact-color;
   }
 }
+.dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: $dot-inactive-color;
+    padding-bottom:5px;
+  
+    &:first-child {
+      margin-right: 5px;
+      width: 10px;
+      height: 10px;
+      background-color: $white-color;
+    }
+  
+    &:last-child {
+      margin-right: 0;
+    }
+  }
