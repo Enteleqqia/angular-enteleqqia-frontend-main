@@ -1,0 +1,122 @@
+$paragraph-color: #6084a4;
+$light-green-color: #44ce6f;
+$icon-green-color: #8FBF21;
+$white-color: #ffffff;
+$contact-color:#EBECEE;
+$links-text-color: #D4D7DD;
+
+.copyright-area {
+    background-color: $icon-green-color;
+    padding: {
+        top: 15px;
+        bottom: 5px;
+    }
+    text-align: center;
+}
+.social-links {
+    li {
+        display: inline-block;
+        margin-right: 5px;
+        background-color: $white-color;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        border-radius: 50%;
+        color: $light-green-color;
+        padding-top: 3px;
+
+        a {
+            
+            i {
+                width: 15px;
+            }
+            &.facebook {
+                color: $icon-green-color;
+
+                &:hover {
+                    background: $white-color;
+                    color: $white-color;
+                }
+            }
+            &.twitter {
+                color: $icon-green-color;
+
+                &:hover {
+                    background: $white-color;
+                    color: $white-color;
+                }
+            }
+            &.linkedin {
+                color: $icon-green-color;
+
+                &:hover {
+                    background: $white-color;
+                    color: $white-color;
+                }
+            }
+            &.youtube {
+                color: $icon-green-color;
+
+                &:hover {
+                    background: $white-color;
+                    color: $white-color;
+                }
+            }
+            &:hover {
+                background: $light-green-color;
+                color: $white-color;
+            }
+        }
+    }
+}
+
+.row {
+    color: $links-text-color;
+  
+    h4 {
+      color: $white-color;
+      font-size: 22px ;
+    }
+  
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-size: 17px;
+  
+      li {
+        margin-bottom: 10px;
+  
+        a {
+          color: $links-text-color;
+          text-decoration: none;
+  
+          &:hover {
+            color: $white-color;
+          }
+        }
+      }
+    }
+  
+    p {
+      margin-bottom: 10px;
+    }
+  }
+.data-contact{
+  padding-top: 60px; 
+  padding-left: 60px;
+
+  p:nth-child(2) {
+    font-size: 14px;
+    color:$contact-color;
+  }
+
+  p:nth-child(3) {
+    font-size: 34px;
+    color:$white-color;
+  }
+    p:nth-child(5) {
+    font-size: 17px;
+    color:$contact-color;
+  }
+}
