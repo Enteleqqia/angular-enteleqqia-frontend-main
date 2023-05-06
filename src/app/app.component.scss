@@ -1,0 +1,79 @@
+.hero {
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .hero .lead {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+  
+  .hero .btn {
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: transparent;
+  }
+  
+  .hero .btn:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  
+  .our-work .col-md-6.col-lg-3 {
+    padding: 0 10px;
+  }
+  
+  .our-work img {
+    border-radius: 10px;
+  }
+  
+  .our-work .col-md-6.col-lg-3:first-child img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .our-work .col-md-6.col-lg-3:last-child img {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .bg-img-1 {
+    background-image: url('https://via.placeholder.com/500x500');
+  }
+  
+  .bg-img-2 {
+    background-image: url('https://via.placeholder.com/500x500');
+  }
+  
+  .bg-img-3 {
+    background-image: url('https://via.placeholder.com/500x500');
+  }
+  
+  
+  .full-screen-background {
+   margin-top: 50px;
+  height: 300px;
+    background-image: url('https://via.placeholder.com/1920x300.png?text=imagen completa');
+  }
+  
+  
