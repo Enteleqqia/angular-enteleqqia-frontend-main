@@ -114,29 +114,68 @@ flex-grow: 0;
 
   .bg-img-0{
     background-image: url("../assets/img/camion1.png");
+    background-size: cover;
+    background-position: center;
     
+    background-repeat : no-repeat;
+
   }
   
   .bg-img-1 {
     background-image: url("../assets/img/mask-group-2.png");
     padding:0;
+    background-size: cover;
   }
   
   .bg-img-2 {
     background-image: url("../assets/img/crane-and-building-construction-site-on-background-BPZXL3M.png");
     padding:0;
+    background-size: cover;
   }
   
   .bg-img-3 {
     background-image: url("../assets/img/mask-group-1.png");
     padding:0;
+    background-size: cover;
   }
 
   .pad{
     padding-top: 60px;
-    padding-left: 40px;
-    padding-right: 26px;
-    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    text-align: left;
+    h2{
+        font-family: 'Kanit';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+/* or 114% */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+    }
+    P{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #EBECEE;
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
   }
   
   
