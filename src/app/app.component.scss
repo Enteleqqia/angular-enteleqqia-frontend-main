@@ -1,5 +1,5 @@
 section{
-    margin-top: 100px;
+    margin-top: 0;
 }
 .hero {
     background-image: url('../assets/img/hero1.png');
@@ -111,24 +111,40 @@ flex-grow: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
+
+  .bg-img-0{
+    background-image: url("../assets/img/camion1.png");
+    
+  }
   
   .bg-img-1 {
-    background-image: url('https://via.placeholder.com/500x500');
+    background-image: url("../assets/img/mask-group-2.png");
+    padding:0;
   }
   
   .bg-img-2 {
-    background-image: url('https://via.placeholder.com/500x500');
+    background-image: url("../assets/img/crane-and-building-construction-site-on-background-BPZXL3M.png");
+    padding:0;
   }
   
   .bg-img-3 {
-    background-image: url('https://via.placeholder.com/500x500');
+    background-image: url("../assets/img/mask-group-1.png");
+    padding:0;
+  }
+
+  .pad{
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 26px;
+    padding-bottom: 40px;
   }
   
   
   .full-screen-background {
-   margin-top: 50px;
-  height: 300px;
-    background-image: url('https://via.placeholder.com/1920x300.png?text=imagen completa');
+    max-width: 100%;
+    height: 500px;
+    margin-bottom: 200px;
+    background-image: url('../assets/img/antena.png');
   }
   
   
